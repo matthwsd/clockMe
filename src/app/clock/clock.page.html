@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ClockMe
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="clock-page">
+  <div class="clock-page__total-timer">
+    <app-clocker #CLOCK__TOTAL></app-clocker>
+  </div>
+  <app-clocker #CLOCK__TASK></app-clocker>
+
+  <ion-button color='primary' fill="outline" (click)="go()" (onTimerInterval)="onTimerInterval()" color="#cdfcdf">
+    Go!
+  </ion-button>
+</ion-content>

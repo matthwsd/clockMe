@@ -1,0 +1,10 @@
+.clock-page {
+    &__total-timer {
+        display: flex;
+        height: auto;
+        width: 50%;
+        justify-content: center;
+        justify-items: right;
+        align-items: center;
+    }
+}
